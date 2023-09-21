@@ -62,7 +62,7 @@ const Banner = () => {
           </svg>
         </div>
 
-        <div className="mx-auto max-w-7xl pt-14 lg:pt-30 sm:pb-24 px-6">
+        <div className="mx-auto max-w-7xl pt-10 lg:pt-30 sm:pb-24 px-6">
           <div className="height-work">
             <div className="flex xxxs:flex-col lg:flex-row justify-evenly md:flex-row my-16 gap-y-20">
               <div className="arrowTwo rrowThree xl:block lg:hidden xxxs:hidden"></div>

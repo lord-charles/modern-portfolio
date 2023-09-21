@@ -93,7 +93,7 @@ const Navbar = () => {
                 }`}
               >
                 <Bars3Icon
-                  className="block h-6 w-6 text-white"
+                  className="block h-8 w-8 text-white"
                   aria-hidden="true"
                   onClick={() => setIsOpen(true)}
                 />
