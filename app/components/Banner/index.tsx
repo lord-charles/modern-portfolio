@@ -88,10 +88,9 @@ const Banner = () => {
                     <br /> companies{" "}
                     <a className="text-pink-500">love to hire </a>
                   </h1>
-                  <p className="text-white md:text-lg font-normal mb-[60px] mt-10 md:text-start text-center lg:flex xxxs:hidden">
-                    Lorem Ipsum is simply dummy text of the printing and <br />{" "}
-                    typesetting industry. Lorem Ipsum has been the industry{" "}
-                    <br /> standard dummy text ever since the 1500s
+                  <p className="text-bluish md:text-lg font-normal mb-[60px] mt-10 md:text-start text-center flex flex-col">
+                    <a> Empower Your Journey to Excellence,</a>
+                    <a className="text-green">All in One Place.</a>
                   </p>
 
                   <div className="flex align-middle justify-center md:justify-start mt-[60px]">
