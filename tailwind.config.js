@@ -25,6 +25,13 @@ module.exports = {
         lightblue: "#8A9BCA",
         blue: "#0C1B44",
       },
+      fontFamily: {
+        inter: ["var(--font-inter)", "sans-serif"],
+        "architects-daughter": [
+          "var(--font-architects-daughter)",
+          "sans-serif",
+        ],
+      },
     },
     screens: {
       xxxs: "20px",

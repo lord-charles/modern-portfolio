@@ -92,7 +92,7 @@ const Features = () => {
                   <Image
                     src="/images/Features/feature-02.webp"
                     alt="/images/Features/feature-01.webp"
-                    className="object-contain h-[135px]"
+                    className="object-contain h-[153px]"
                     width={200}
                     height={200}
                   />

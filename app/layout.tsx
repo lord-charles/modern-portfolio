@@ -12,15 +12,30 @@ export const metadata = {
     icon: '/logo.svg',
   },
 }
+import { Inter, Architects_Daughter } from "next/font/google";
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const architects_daughter = Architects_Daughter({
+  subsets: ["latin"],
+  variable: "--font-architects-daughter",
+  weight: "400",
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className="overflow-x-hidden">
+      <body
+        className={`${inter.variable} ${architects_daughter.variable} overflow-x-hidden`}
+      >
         {/* <PageIllustration /> */}
         <Navbar />
         {children}
