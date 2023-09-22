@@ -60,7 +60,7 @@ const Features = () => {
               triggerOnce={true}
             >
               <div className="bg-blue py-10 pr-12 pl-6 rounded-lg">
-                <div className="rounded-full  w-[150px]  flex items-center justify-center mb-10">
+                <div className="rounded-full  w-auto  flex items-center justify-center mb-10">
                   <Image
                     src="/images/Features/feature-01.webp"
                     alt="/images/Features/feature-01.webp"
@@ -88,7 +88,7 @@ const Features = () => {
               triggerOnce={true}
             >
               <div className="bg-blue py-10 pr-12 pl-6 rounded-lg">
-                <div className="rounded-full  w-[150px]  flex items-center justify-center mb-10">
+                <div className="rounded-full  w-auto  flex items-center justify-center mb-10">
                   <Image
                     src="/images/Features/feature-02.webp"
                     alt="/images/Features/feature-01.webp"
@@ -116,7 +116,7 @@ const Features = () => {
               triggerOnce={true}
             >
               <div className="bg-blue py-10 pr-12 pl-6 rounded-lg">
-                <div className="rounded-full  w-[150px]  flex items-center justify-center mb-10">
+                <div className="rounded-full  w-auto  flex items-center justify-center mb-10">
                   <Image
                     src="/images/Features/feature-03.webp"
                     alt="/images/Features/feature-01.webp"
