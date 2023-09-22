@@ -185,6 +185,9 @@ html:not([data-scroll="0"]) .navbar {
   background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
 }
 
+.gg2 {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+}
 /* Simple Section */
 
 .simple-bg {
