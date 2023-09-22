@@ -82,7 +82,7 @@ const Features = () => {
             {/* 2 */}
             <Fade
               direction={"up"}
-              delay={800}
+              delay={600}
               cascade
               damping={1e-1}
               triggerOnce={true}
@@ -110,7 +110,7 @@ const Features = () => {
             {/* 3 */}
             <Fade
               direction={"up"}
-              delay={1000}
+              delay={800}
               cascade
               damping={1e-1}
               triggerOnce={true}

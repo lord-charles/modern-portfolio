@@ -70,8 +70,9 @@ const Work = () => {
                   <Image
                     src={items.imgSrc}
                     alt={items.imgSrc}
-                    width={44}
-                    height={44}
+                    className="object-contain w-[40px]"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div>
