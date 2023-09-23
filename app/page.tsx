@@ -27,8 +27,9 @@ export default function Home() {
       {openModal.state && (
         <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
       )}
-      {/* <Simple /> */}
       <Trade />
+      <Simple />
+
       <Faq />
     </main>
   );
