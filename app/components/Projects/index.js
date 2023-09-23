@@ -13,6 +13,7 @@ import {
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../../utils/data";
 import { Fade } from "react-awesome-reveal";
+import HeroBgAnimation from "../HeroBgAnimation/index";
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
@@ -26,7 +27,12 @@ const Projects = ({ openModal, setOpenModal }) => {
     >
       <Container id="projects">
         <div className="radial-bgone hidden lg:block"></div>
-
+        <div className="absolute top-[-100px]">
+          <HeroBgAnimation />
+        </div>
+        <div className="absolute">
+          <HeroBgAnimation />
+        </div>
         <Wrapper>
           <Title className=" text-bluish">Portfolio Highlights</Title>
           <Desc className=" text-bluish xxxs:px-4">
