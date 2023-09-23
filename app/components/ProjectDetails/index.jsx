@@ -1,5 +1,6 @@
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
+import Image from 'next/image';
 import React from 'react'
 import styled from 'styled-components'
 
@@ -65,13 +66,13 @@ const Desc = styled.div`
     }
 `;
 
-const Image = styled.img`
-    width: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-top: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-`;
+// const Image = styled.img`
+//     width: 100%;
+//     object-fit: cover;
+//     border-radius: 12px;
+//     margin-top: 30px;
+//     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+// `;
 
 const Label = styled.div`
     font-size: 20px;
@@ -198,7 +199,7 @@ const index = ({ openModal, setOpenModal }) => {
                         onClick={() => setOpenModal({ state: false, project: null })}
                         className='bg-white rounded-full'
                     />
-                    <Image src={project?.image} alt='image'/>
+                   <Image src={project.image} height={500} width={500}  alt='image' className='object-contain h-auto max-h-[600px] w-auto'/>
                     <Title className='text-bluish'>{project?.title}</Title>
                     <Date className='text-bluish'>{project.date}</Date>
                     <Tags>

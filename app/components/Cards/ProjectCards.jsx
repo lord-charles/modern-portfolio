@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -38,13 +39,13 @@ const Card = styled.div`
     }
 `
 
-const Image = styled.img`
-    width: 100%;
-    height: 180px;
-    background-color: ${({ theme }) => theme.white};
-    border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
-`
+// const Image = styled.img`
+//     width: 100%;
+//     height: 180px;
+//     background-color: ${({ theme }) => theme.white};
+//     border-radius: 10px;
+//     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+// `
 
 const Tags = styled.div`
     width: 100%;
@@ -124,8 +125,8 @@ const Avatar = styled.img`
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})} className='bg-blue'>
-            <Image src={project.image} alt='image'/>
+        <Card onClick={() => setOpenModal({state: true, project: project})}>
+            <Image src={project.image} height={300} width={300}  alt='image' className='object-contain h-[200px]'/>
             <Tags >
                 {project.tags?.map((tag, index) => (
                 <Tag key={index} className='bg-green text-bluish'>{tag}</Tag>
@@ -136,12 +137,15 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
+            <div className='flex items-center w-full'>
+                 <Members className='text-green w-[80px]'>
                 {project.member?.map((member,index) => (
                     <Avatar key={index} src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+            <h2 className='text-green text-[12px] font-serif text-center'>{project.domain}</h2>
+            </div>
+           
         </Card>
     )
 }
