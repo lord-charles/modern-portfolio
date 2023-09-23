@@ -1,13 +1,20 @@
 import Image from "next/image";
-
+import { Fade } from "react-awesome-reveal";
 
 const Trade = () => {
-    return (
-      <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative">
-        <div className="radial-bgone hidden lg:block"></div>
+  return (
+    <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative">
+      <div className="radial-bgone hidden lg:block"></div>
 
-        <div className="grid lg:grid-cols-2 gap-x-5 place-content-center">
-          {/* Column-1 */}
+      <div className="grid lg:grid-cols-2 gap-x-5 place-content-center">
+        {/* Column-1 */}
+        <Fade
+          direction={"left"}
+          delay={400}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
           <div>
             <Image
               src={"/images/Trade/macbook.png"}
@@ -16,9 +23,16 @@ const Trade = () => {
               height={512}
             />
           </div>
+        </Fade>
 
-          {/* Column-2 */}
-
+        {/* Column-2 */}
+        <Fade
+          direction={"up"}
+          delay={800}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
           <div>
             <h3 className="text-3xl lg:text-5xl font-semibold text-offwhite mb-6 text-center sm:text-start">
               Exploring Complex Software Solutions
@@ -59,9 +73,10 @@ const Trade = () => {
               />
             </div>
           </div>
-        </div>
+        </Fade>
       </div>
-    );
-}
+    </div>
+  );
+};
 
 export default Trade;
