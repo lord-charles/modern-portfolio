@@ -25,7 +25,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       damping={1e-1}
       triggerOnce={true}
     >
-      <Container id="projects">
+      <Container id="projects" className="overflow-x-hidden">
         <div className="radial-bgone hidden lg:block"></div>
         <div className="absolute top-[-100px]">
           <HeroBgAnimation />
