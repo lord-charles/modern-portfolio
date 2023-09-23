@@ -35,7 +35,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         </div>
         <Wrapper>
           <Title className=" text-bluish">Portfolio Highlights</Title>
-          <Desc className=" text-bluish xxxs:px-4">
+          <Desc className=" text-bluish xxxs:px-10">
             Explore a selection of my diverse web and mobile app projects.
             Witness my commitment to excellence and innovation in every
             endeavor.
