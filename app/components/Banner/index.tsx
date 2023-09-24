@@ -14,9 +14,10 @@ const Banner = () => {
         <ModalVideo
           channel="youtube"
           isOpen={isOpen}
-          videoId="1YyAzVmP9xQ"
+          videoId="Fi3_BjVzpqk"
           onClose={() => setOpen(false)}
         />
+
         <Image
           src="/bg-grid-lighter.svg"
           className="h-screen w-screen absolute object-cover top-[-700px]"
