@@ -73,7 +73,7 @@ const Features = () => {
                 <h5 className="text-offwhite text-lg font-medium mb-4">
                   Quality-driven
                 </h5>
-                <p className="text-lightblue text-sm font-normal">
+                <p className="text-lightblue text-base font-normal">
                   Quality matters most. I create clean, maintainable code for
                   lasting reliability, backed by strong quality assurance.
                 </p>
@@ -101,7 +101,7 @@ const Features = () => {
                 <h5 className="text-offwhite text-lg font-medium mb-4">
                   Innovator
                 </h5>
-                <p className="text-lightblue text-sm font-normal">
+                <p className="text-lightblue text-base font-normal">
                   I excel in creative problem-solving, consistently delivering
                   exceptional results.
                 </p>
@@ -129,9 +129,9 @@ const Features = () => {
                 <h5 className="text-offwhite text-lg font-medium mb-4">
                   Technical Excellence
                 </h5>
-                <p className="text-lightblue text-sm font-normal">
-                  I&apos;m skilled in the latest tech, producing high-quality,
-                  functional code seen in my projects and samples.
+                <p className="text-lightblue text-base font-normal">
+                  I excel in modern tech, delivering top-quality, functional
+                  code in my projects and samples.
                 </p>
               </div>
             </Fade>
