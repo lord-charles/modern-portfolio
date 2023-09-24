@@ -79,9 +79,9 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-bluish grow">
                 — Innovative Collaborator: "Working with Charles has been an
-                inspiring journey. She&apos;s an innovative collaborator who
+                inspiring journey. He&apos;s an innovative collaborator who
                 consistently pushes the boundaries of what&apos;s possible in
-                software development. Her dedication and vision deserve
+                software development. His dedication and vision deserve
                 applause."
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
@@ -122,7 +122,7 @@ export default function Testimonials() {
               <blockquote className="text-lg text-bluish grow">
                 — Exceptional Developer: "Charles is an exceptional developer
                 who&apos;s making a significant impact in the software industry.
-                Her technical acumen and commitment to quality are truly
+                His technical acumen and commitment to quality are truly
                 commendable. Her dedication and vision deserve applause."
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
