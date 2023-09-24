@@ -40,8 +40,12 @@ const Features = () => {
           <h3 className="feature-font text-lg font-semibold mb-4 text-center md:text-start">
             FEATURES
           </h3>
-          <h2 className="text-offwhite text-3xl lg:text-4xl font-semibold leading-snug mb-6 text-center md:text-start">
-            Why Entrust Your Software Development to Me
+          <h2 className="text-offwhite text-3xl lg:text-4xl font-semibold leading-snug mb-6 text-center  md:text-start items-center">
+            <a>
+              {" "}
+              Why Entrust Your Software Development{" "}
+              <a className="text-green">to Me ?</a>
+            </a>
           </h2>
           <p className="lg:text-lg font-normal text-bluish text-center md:text-start lg:block md:block xxxs:hidden">
             In software development, I&apos;m your catalyst for transformation,

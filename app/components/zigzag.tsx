@@ -20,10 +20,13 @@ export default function Zigzag() {
               />
             </div>
 
-            <p className="text-xl text-bluish">
+            <p className="text-xl text-bluish lg:block md:block xxxs:hidden">
               uncover my technology stack—an insightfully curated collection of
               tools and frameworks that drive efficiency and innovation in my
               projects.
+            </p>
+            <p className="text-lg text-bluish lg:hidden md:hidden xxxs:block">
+              Explore my carefully curated technology stack, driving innovation.
             </p>
           </div>
 

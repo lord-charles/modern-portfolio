@@ -35,10 +35,13 @@ const Projects = ({ openModal, setOpenModal }) => {
         </div>
         <Wrapper>
           <Title className=" text-bluish">Portfolio Highlights</Title>
-          <Desc className=" text-bluish xxxs:px-10">
+          <Desc className=" text-bluish lg:block md:block xxxs:hidden">
             Explore a selection of my diverse web and mobile app projects.
             Witness my commitment to excellence and innovation in every
             endeavor.
+          </Desc>
+          <Desc className=" text-bluish lg:hidden md:hidden xxxs:block">
+            Diverse projects showcasing excellence and innovation awaits.
           </Desc>
           <ToggleButtonGroup className=" text-green">
             {toggle === "all" ? (
