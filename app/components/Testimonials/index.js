@@ -7,8 +7,8 @@ export default function Testimonials() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 text-bluish">
-              What Others Say About My Work
+            <h2 className="h2 mb-4 text-bluish feature-font text-lg font-semibold">
+              TESTIMONIALS
             </h2>
             <p className="text-xl text-bluish">
               Discover what clients and colleagues have to say.
