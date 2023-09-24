@@ -331,27 +331,6 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Kempes owino",
-    date: "Sept 2023 - present",
-    description:
-      "Dive into the captivating world of Kempes Owino with our meticulously crafted personal blog. Delve into the life and experiences of this renowned former Harambee Stars player, as we bring you exclusive insights, stories, and updates directly from the legend himself. Join us on this exciting journey through the world of football and beyond, as we share Kempes Owino's extraordinary adventures and perspectives.",
-    image: "/images/projects/kempes.png",
-    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://charlesmwaniki.kempesowino.co.ke/",
-    member: [
-      {
-        name: "Charles Mwaniki",
-        img: "/icons/user.png",
-        linkedin: "https://www.linkedin.com/",
-        github: "https://github.com/",
-      },
-    ],
-    domain: "charlesmwaniki.kempesowino.co.ke | kempesowino.co.ke",
-  },
-  {
-    id: 0,
     title: "Crypto",
     date: "Apr 2023 - May 2023",
     description:
@@ -370,6 +349,59 @@ export const projects = [
       },
     ],
     domain: "crypto.charlesmwaniki.com",
+  },
+  {
+    id: 1,
+    title: "Classics Wifi",
+    date: "July 2023 - Present",
+    description:
+      "Welcome to Classic WiFi, your gateway to seamless internet connectivity. We proudly present a cutting-edge website designed to offer an unparalleled online experience for all your bandwidth needs. At Classic WiFi, we utilize MikroTik Hotspot technology to provide you with reliable, high-speed internet access whenever and wherever you need it.🌐 Explore a user-friendly platform that simplifies the process of purchasing bandwidth packages.💼 Choose from a variety of flexible plans that cater to both casual users and power-hungry internet enthusiasts.🔒 Rest assured with top-notch security measures, ensuring your data remains safe during your online sessions.💳 Conveniently complete transactions with our secure payment gateway, guaranteeing hassle-free purchases.🌟 Experience blazing-fast internet speeds and uninterrupted connectivity throughout your subscription.",
+    image: "/images/projects/classics.png",
+    tags: [
+      "True Host",
+      "C-Panel",
+      "Vercel",
+      "NextJs 13",
+      "Tailwind",
+      "Noje js",
+      "Express js",
+      "Mongo db",
+      "Axios",
+    ],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://classics.charlesmwaniki.com/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "classics.charlesmwaniki.com",
+  },
+
+  {
+    id: 0,
+    title: "Kempes owino",
+    date: "Sept 2023 - present",
+    description:
+      "Dive into the captivating world of Kempes Owino with our meticulously crafted personal blog. Delve into the life and experiences of this renowned former Harambee Stars player, as we bring you exclusive insights, stories, and updates directly from the legend himself. Join us on this exciting journey through the world of football and beyond, as we share Kempes Owino's extraordinary adventures and perspectives.",
+    image: "/images/projects/kempes.png",
+    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://charlesmwaniki.kempesowino.co.ke/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "charlesmwaniki.kempesowino.co.ke | kempesowino.co.ke",
   },
   {
     id: 1,
@@ -413,37 +445,7 @@ export const projects = [
     ],
     domain: "chef.charlesmwaniki.com",
   },
-  {
-    id: 1,
-    title: "Classics Wifi",
-    date: "July 2023 - Present",
-    description:
-      "Welcome to Classic WiFi, your gateway to seamless internet connectivity. We proudly present a cutting-edge website designed to offer an unparalleled online experience for all your bandwidth needs. At Classic WiFi, we utilize MikroTik Hotspot technology to provide you with reliable, high-speed internet access whenever and wherever you need it.🌐 Explore a user-friendly platform that simplifies the process of purchasing bandwidth packages.💼 Choose from a variety of flexible plans that cater to both casual users and power-hungry internet enthusiasts.🔒 Rest assured with top-notch security measures, ensuring your data remains safe during your online sessions.💳 Conveniently complete transactions with our secure payment gateway, guaranteeing hassle-free purchases.🌟 Experience blazing-fast internet speeds and uninterrupted connectivity throughout your subscription.",
-    image: "/images/projects/classics.png",
-    tags: [
-      "True Host",
-      "C-Panel",
-      "Vercel",
-      "NextJs 13",
-      "Tailwind",
-      "Noje js",
-      "Express js",
-      "Mongo db",
-      "Axios",
-    ],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://classics.charlesmwaniki.com/",
-    member: [
-      {
-        name: "Charles Mwaniki",
-        img: "/icons/user.png",
-        linkedin: "https://www.linkedin.com/",
-        github: "https://github.com/",
-      },
-    ],
-    domain: "classics.charlesmwaniki.com",
-  },
+
   {
     id: 2,
     title: "Brain Tumor Detection",
