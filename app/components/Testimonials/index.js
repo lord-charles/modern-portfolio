@@ -7,9 +7,11 @@ export default function Testimonials() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Don't take our word for it</h2>
+            <h2 className="h2 mb-4 text-bluish">
+              What Others Say About My Work
+            </h2>
             <p className="text-xl text-bluish">
-              Listen to the Voices of Those Touched by Kempes Owino's Legacy.
+              Discover what clients and colleagues have to say.
             </p>
           </div>
 
@@ -39,22 +41,18 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-bluish grow">
-                — Visionary Leader: "Kempes Owino is a visionary leader who's
-                reshaping the future of African football. His investment in a
-                state-of-the-art football academy promises to empower
-                generations of young talents. His dedication and vision deserve
-                applause." - [Sports Enthusiast].
+                — Visionary Engineer: "Charles is a visionary engineer
+                who&apos;s revolutionizing the world of software development.
+                His expertise and innovative thinking have elevated our projects
+                to new heights. His dedication and vision deserve applause."
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">
-                  Mr. Sammy Shollei
-                </cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">John Smith</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  Warrior
+                  Tech Solutions
                 </a>
               </div>
             </div>
@@ -80,19 +78,19 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-bluish grow">
-                — From a Rising Star: "Kempes Owino's influence on my football
-                journey is immeasurable. His dedication to developing young
-                talent is exceptional. Thanks to AYSES Academy, I've had the
-                opportunity to hone my skills and make strides towards my
-                dreams." - [Rising Football Star].
+                — Innovative Collaborator: "Working with Charles has been an
+                inspiring journey. She&apos;s an innovative collaborator who
+                consistently pushes the boundaries of what&apos;s possible in
+                software development. Her dedication and vision deserve
+                applause."
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Kempes Owino</cite> -{" "}
+                <cite className="text-gray-200 not-italic">mily Davis</cite> -{" "}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  AYSES Academy
+                  XYZ Corporation
                 </a>
               </div>
             </div>
@@ -122,11 +120,10 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-bluish grow">
-                — Football Enthusiast: "Kempes Owino's commitment to advancing
-                the game of football is truly inspiring. His FIFA authorization
-                and efforts to establish a football academy in Kenya demonstrate
-                his passion for the sport's growth and development." - [Football
-                Enthusiast].
+                — Exceptional Developer: "Charles is an exceptional developer
+                who&apos;s making a significant impact in the software industry.
+                Her technical acumen and commitment to quality are truly
+                commendable. Her dedication and vision deserve applause."
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
@@ -135,7 +132,7 @@ export default function Testimonials() {
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  UX Board
+                  Tech Innovators Inc.
                 </a>
               </div>
             </div>
