@@ -10,7 +10,7 @@ interface faqdata {
 
 const faqdata: faqdata[] = [
   {
-    heading: "2. What is your pricing structure?",
+    heading: "1. What is your pricing structure?",
     subheading:
       "Pricing is based on the complexity of the project, and I'm open to negotiation. Rest assured, I strive to provide cost-effective solutions while maintaining the project's quality and integrity.",
   },

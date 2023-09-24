@@ -42,7 +42,7 @@ const Features = () => {
           </h3>
           <h2 className="text-offwhite text-3xl lg:text-4xl font-semibold leading-snug mb-6 text-center  md:text-start items-center">
             <a>
-              Why Entrust Your Software Development
+              Why Entrust Your Software Development{" "}
               <a className="text-green">to Me ?</a>
             </a>
           </h2>
