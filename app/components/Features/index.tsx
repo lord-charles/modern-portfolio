@@ -43,7 +43,7 @@ const Features = () => {
           <h2 className="text-offwhite text-3xl lg:text-4xl font-semibold leading-snug mb-6 text-center md:text-start">
             Why Entrust Your Software Development to Me
           </h2>
-          <p className="lg:text-lg font-normal text-bluish text-center md:text-start">
+          <p className="lg:text-lg font-normal text-bluish text-center md:text-start lg:block md:block xxxs:hidden">
             In software development, I&apos;m your catalyst for transformation,
             creating elegant, efficient solutions that exceed expectations.
             Choose me as your developer, and let&apos;s make dreams a reality.
