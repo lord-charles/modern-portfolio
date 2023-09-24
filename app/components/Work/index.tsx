@@ -15,7 +15,7 @@ const workdata: workdata[] = [
     imgSrc: "/icons/requirements.png",
     heading: "Requirements-Centric Development",
     subheading:
-      "We begin by understanding your unique project requirements, laying the foundation for a tailored solution that surpasses expectations.",
+      "We start by understanding your unique project requirements, laying the foundation for a tailored solution that exceeds expectations.",
     hiddenpara:
       "Throughout development, we continuously refine the software to adapt to your evolving needs, ensuring precision and quality.",
     delay: 400,
