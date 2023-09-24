@@ -60,7 +60,7 @@ const Projects = ({ openModal, setOpenModal }) => {
                 value="web app"
                 onClick={() => setToggle("web app")}
               >
-                WEB APP'S
+                WEB APP&apos;S
               </ToggleButton>
             ) : (
               <ToggleButton
