@@ -45,10 +45,11 @@ const footer = () => {
               alt="Crypto-Logo"
             />
             <h3 className="text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16">
-              {" "}
-              Cryptocurrency is a type of virtual currency that uses
-              cryptography to secure transactions that are digitally recorded on
-              a distributed ledger, such as a blockchain.
+              Thank you for exploring my portfolio as a senior software
+              engineer. I&apos;m committed to delivering excellence in every
+              project I undertake. If you&apos;re seeking a seasoned
+              professional to bring your digital ideas to life, I&apos;m here to
+              help. Let&apos;s collaborate and create something remarkable.
             </h3>
             <div className="flex gap-4">
               {socialLinks.map((items, i) => (
