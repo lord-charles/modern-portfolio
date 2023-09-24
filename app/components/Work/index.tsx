@@ -15,7 +15,7 @@ const workdata: workdata[] = [
     imgSrc: "/icons/requirements.png",
     heading: "Requirements-Centric Development",
     subheading:
-      "We start by understanding your unique project requirements, laying the foundation for a tailored solution that exceeds expectations.",
+      "We begin by grasping your project needs, laying the foundation for an exceptional tailored solution.",
     hiddenpara:
       "Throughout development, we continuously refine the software to adapt to your evolving needs, ensuring precision and quality.",
     delay: 400,
@@ -33,7 +33,7 @@ const workdata: workdata[] = [
     imgSrc: "/icons/continuous.png",
     heading: "Continuous Quality Assurance",
     subheading:
-      "Quality is paramount. We rigorously test, review code, and optimize performance for bug-free, scalable, secure, efficient software.",
+      "Quality is crucial. We test, review, and optimize for bug-free, scalable, secure software.",
     hiddenpara:
       "Committed to industry standards and tech trends, we craft innovative, reliable software solutions tailored to you.",
     delay: 800,
