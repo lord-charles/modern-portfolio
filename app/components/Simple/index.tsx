@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Simple = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="hire">
       <div className="mx-auto max-w-5xl py-24 px-8">
         <div className="flex justify-center items-center absolute inset-0 lg:top-[-100px] md:top-[-100px] xxxs:top-[100px]">
           <HeroBgAnimation />

@@ -8,19 +8,15 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#home-section', current: false },
-    { name: 'Portfolio', href: '#exchange-section', current: false },
-    { name: 'About', href: '#features-section', current: false },
-    { name: 'Services', href: '#features-section', current: false },
-    { name: 'Skills', href: '#faq-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Resume/CV', href: '#faq-section', current: false },
-    { name: 'Testimonials', href: '#faq-section', current: false },
-    { name: 'GitHub/Code Repository', href: '#faq-section', current: false },
-
-
-
-]
+  { name: "Home", href: "#home-section", current: false },
+  { name: "Portfolio", href: "#projects", current: false },
+  { name: "About", href: "#about", current: false },
+  { name: "Services", href: "#features-section", current: false },
+  { name: "Skills", href: "#skills", current: false },
+  { name: "FAQ", href: "#faq-section", current: false },
+  { name: "Resume/CV", href: "#hire", current: false },
+  { name: "Testimonials", href: "#testimonials", current: false },
+];
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')

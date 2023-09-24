@@ -241,7 +241,7 @@ const Banner = () => {
             </div>
 
             {/* introduction */}
-            <div className="relative top-[10px] font-serif">
+            <div className="relative top-[10px] font-serif" id="about">
               <h1 className="text-bluish font-semibold text-[20px] text-center">
                 Hello,
               </h1>

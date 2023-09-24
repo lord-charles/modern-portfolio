@@ -5,7 +5,10 @@ import { Fade } from "react-awesome-reveal";
 export default function Zigzag() {
   return (
     <section>
-      <div className="mx-auto max-w-7xl mt-16  mb-20 relative overflow-x-hidden px-6">
+      <div
+        className="mx-auto max-w-7xl mt-16  mb-20 relative overflow-x-hidden px-6"
+        id="skills"
+      >
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
