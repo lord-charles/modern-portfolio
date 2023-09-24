@@ -10,6 +10,7 @@ import Faq from "./components/Faq/index";
 import Zigzag from "./components/zigzag";
 import Projects from "./components/Projects/index";
 import ProjectDetails from "./components/ProjectDetails/index";
+import Testimonials from "./components/Testimonials/index";
 import { useState } from "react";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       )}
       <Trade />
       <Simple />
+      <Testimonials />
 
       <Faq />
     </main>

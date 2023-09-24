@@ -41,7 +41,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             endeavor.
           </Desc> */}
           <Desc className=" text-bluish">
-            Diverse projects showcasing excellence and innovation awaits.
+            Excellence and innovation awaits.
           </Desc>
           <ToggleButtonGroup className=" text-green">
             {toggle === "all" ? (
