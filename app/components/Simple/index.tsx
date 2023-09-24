@@ -4,17 +4,18 @@ import HeroBgAnimation from "../HeroBgAnimation";
 const Simple = () => {
   return (
     <div className="relative">
-      <div className="mx-auto max-w-5xl py-24 px-6">
-        <div className="flex justify-center items-center absolute inset-0">
+      <div className="mx-auto max-w-5xl py-24 px-8">
+        <div className="flex justify-center items-center absolute inset-0 top-[-100px]">
           <HeroBgAnimation />
         </div>
 
         <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-6">
-          A simple, secure way to buy <br /> and sell cryptocurrency
+          Unlocking Possibilities, One Line of Code at a Time
         </h3>
         <p className="text-center text-bluish text-lg font-normal mb-8">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum <br /> has been the industry
+          Experienced software engineer dedicated to turning your ideas into
+          reality. Collaborate with me to enhance your digital presence or
+          tackle new projects. Let&apos;s innovate together – hire me now.
         </p>
         <div className="flex justify-center space-x-4">
           <button className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton">

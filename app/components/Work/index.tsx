@@ -62,7 +62,7 @@ const Work = () => {
               cascade
               damping={1e-1}
               triggerOnce={true}
-              className="card-b p-8 transform-all-ease"
+              className="card-b p-8 transform-all-ease custom-border2"
               key={i}
             >
               <>

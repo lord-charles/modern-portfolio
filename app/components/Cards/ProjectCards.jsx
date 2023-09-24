@@ -125,7 +125,7 @@ const Avatar = styled.img`
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
+        <Card onClick={() => setOpenModal({state: true, project: project})} className='custom-border2'>
             <Image src={project.image} height={300} width={300}  alt='image' className='object-contain h-[200px]'/>
             <Tags >
                 {project.tags?.map((tag, index) => (

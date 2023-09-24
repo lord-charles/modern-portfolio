@@ -423,3 +423,7 @@ th:last-child {
 .blinking-cursor {
   animation: blink 1s infinite;
 }
+.custom-border2 {
+  border: 0.1px solid #854CE6;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
