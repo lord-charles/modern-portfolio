@@ -12,6 +12,7 @@ import Projects from "./components/Projects/index";
 import ProjectDetails from "./components/ProjectDetails/index";
 import Testimonials from "./components/Testimonials/index";
 import { useState } from "react";
+import Newsletter from "./components/newsletter/newsletter";
 
 export default function Home() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -30,9 +31,9 @@ export default function Home() {
       )}
       <Trade />
       <Simple />
-      <Testimonials />
-
       <Faq />
+      <Testimonials />
+      <Newsletter />
     </main>
   );
 }

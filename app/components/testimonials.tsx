@@ -8,7 +8,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't take our word for it</h2>
-            <p className="text-xl text-bluish">
+            <p className="text-xl text-gray-400">
               Listen to the Voices of Those Touched by Kempes Owino's Legacy.
             </p>
           </div>
@@ -17,14 +17,14 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* 1st testimonial */}
             <div
-              className="flex flex-col h-full p-6  bg-blue custom-border2 rounded-lg"
+              className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
             >
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src="/testimonial/usertwo.png"
+                    src="/images/tes3.jpg"
                     width={58}
                     height={48}
                     alt="Testimonial 01"
@@ -38,7 +38,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-bluish grow">
+              <blockquote className="text-lg text-gray-400 grow">
                 — Visionary Leader: "Kempes Owino is a visionary leader who's
                 reshaping the future of African football. His investment in a
                 state-of-the-art football academy promises to empower
@@ -60,18 +60,22 @@ export default function Testimonials() {
             </div>
 
             {/* 2nd testimonial */}
-            <div className="flex flex-col h-full p-6 bg-blue custom-border2 rounded-lg">
+            <div
+              className="flex flex-col h-full p-6 bg-gray-800"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src="/testimonial/userthree.png"
-                    width={78}
-                    height={78}
+                    src="/images/tes2.jpeg"
+                    width={48}
+                    height={48}
                     alt="Testimonial 02"
                   />
                   <svg
-                    className="absolute top-0 right-0 mr-1 w-6 h-5 fill-current text-purple-600"
+                    className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
                     viewBox="0 0 24 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -79,7 +83,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-bluish grow">
+              <blockquote className="text-lg text-gray-400 grow">
                 — From a Rising Star: "Kempes Owino's influence on my football
                 journey is immeasurable. His dedication to developing young
                 talent is exceptional. Thanks to AYSES Academy, I've had the
@@ -99,7 +103,7 @@ export default function Testimonials() {
 
             {/* 3rd testimonial */}
             <div
-              className="flex flex-col h-full p-6  bg-blue custom-border2 rounded-lg"
+              className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -107,7 +111,7 @@ export default function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src="/testimonial/userone.png"
+                    src="/images/testimonial-01.jpg"
                     width={48}
                     height={48}
                     alt="Testimonial 03"
@@ -121,7 +125,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-bluish grow">
+              <blockquote className="text-lg text-gray-400 grow">
                 — Football Enthusiast: "Kempes Owino's commitment to advancing
                 the game of football is truly inspiring. His FIFA authorization
                 and efforts to establish a football academy in Kenya demonstrate

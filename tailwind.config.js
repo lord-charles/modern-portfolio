@@ -24,6 +24,8 @@ module.exports = {
         red: "#c92a8f",
         lightblue: "#8A9BCA",
         blue: "#0C1B44",
+        midnightblue: "#222C44",
+        ultramarine: "#1A21BC",
       },
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
