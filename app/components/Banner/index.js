@@ -160,8 +160,8 @@ const Banner = () => {
                           ]}
                           wrapper="span"
                           speed={50}
-                          className="text-amber-300"
-                          style={{ fontSize: "1em", display: "inline-block" }}
+                          className="text-amber-300 text-[15px]"
+                          style={{ display: "inline-block" }}
                           repeat={Infinity}
                         />
                       </code>
@@ -169,7 +169,7 @@ const Banner = () => {
                     <div>
                       <code className="font-mono">
                         <span className="text-white ml-8 mr-2">skills:</span>
-                        <span className="text-amber-300">
+                        <span className="text-amber-300 text-[15px]">
                           ['React', 'Node'],
                         </span>
                       </code>
