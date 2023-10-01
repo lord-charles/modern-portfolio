@@ -3,6 +3,7 @@ import '@/node_modules/react-modal-video/scss/modal-video.scss';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 import TidioChat from "./components/Tindio";
+import ScrollToTop from "./components/scroll-to-top/index";
 
 export const metadata = {
   title: "Charles Mwaniki",
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         {/* <PageIllustration /> */}
         <Navbar />
+        <ScrollToTop />
         <TidioChat />
         {children}
         <Footer />

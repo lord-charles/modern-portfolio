@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Fade } from "react-awesome-reveal";
+import toast from "react-hot-toast";
 
 const Simple = () => {
   return (
@@ -22,7 +23,10 @@ const Simple = () => {
             damping={1e-1}
             triggerOnce={true}
           >
-            <button className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton animate-pulse">
+            <button
+              className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton animate-pulse"
+              onClick={() => toast.success("Please chat me via chatbot.")}
+            >
               Hire me
             </button>
           </Fade>
@@ -35,7 +39,10 @@ const Simple = () => {
             triggerOnce={true}
           >
             {" "}
-            <button className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton">
+            <button
+              className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton"
+              onClick={() => toast.success("Available upon request.")}
+            >
               View CV
             </button>
           </Fade>

@@ -42,7 +42,7 @@ const workdata: workdata[] = [
 
 const Work = () => {
   return (
-    <div>
+    <div id="work">
       <div className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative">
         <div className="radial-bgone hidden lg:block"></div>
         <div className="text-center mb-14">

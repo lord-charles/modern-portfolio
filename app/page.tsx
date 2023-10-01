@@ -13,12 +13,14 @@ import ProjectDetails from "./components/ProjectDetails/index";
 import Testimonials from "./components/Testimonials/index";
 import { useState } from "react";
 import Newsletter from "./components/newsletter/newsletter";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal);
   return (
     <main>
+      <Toaster />
       <Banner />
       <Companies />
       <Work />

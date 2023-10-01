@@ -5,6 +5,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Image from 'next/image';
+import toast from "react-hot-toast";
 // import Contactusform from './Contactus';
 
 interface NavigationItem {
@@ -74,7 +75,10 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <button className="hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white">
+              <button
+                className="hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white"
+                onClick={() => toast.success("Contact me via ChatBot below.")}
+              >
                 Contact
               </button>
               {/* <Contactusform /> */}

@@ -1,6 +1,27 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function Newsletter() {
+  const [email, setEmail] = useState("");
+  const [ShowThanksButton, setShowThanksButton] = useState(false);
+
+  const handleEmailChange = (e: any) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = () => {
+    const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+
+    if (emailPattern.test(email)) {
+      toast.success("Success");
+      setShowThanksButton(true);
+    } else {
+      toast.error("Invalid email format");
+    }
+  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -56,14 +77,18 @@ export default function Newsletter() {
               <div className="flex  sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none items-center  bg-offwhite  rounded-full px-5 py-1">
                 <input
                   type="email"
-                  className="w-full appearance-none bg-offwhite outline-none  rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-bluish placeholder-purple-400 relative top-[5px]"
+                  className="w-full appearance-none bg-offwhite outline-none rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-bluish placeholder-purple-400 relative top-[5px]"
                   placeholder="Your best email…"
                   aria-label="Your best email…"
+                  value={email} // Bind the value to the state
+                  onChange={handleEmailChange} // Handle input changes
                 />
+
                 <div className=" relative left-[10px] flex items-center ">
                   <button
-                    type="submit"
+                    type="button"
                     className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-ultramarine hover:bg-midnightblue duration-150 ease-in-out rounded-full"
+                    onClick={() => handleSubmit()}
                   >
                     <Image
                       src={"/icons/send.svg"}
@@ -75,9 +100,12 @@ export default function Newsletter() {
                 </div>
               </div>
               {/* Success message */}
-              {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm text-bluish">
-                Thanks for subscribing!
-              </p> */}
+
+              {ShowThanksButton && (
+                <p className="text-center  text-white text-sm mt-2">
+                  Thanks for subscribing!
+                </p>
+              )}
             </form>
           </div>
         </div>

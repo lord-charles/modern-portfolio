@@ -1,4 +1,5 @@
 "use client";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
@@ -144,5 +145,8 @@ const Features = () => {
     </div>
   );
 };
+export default dynamic(() => Promise.resolve(Features), {
+  ssr: false,
+});
 
-export default Features;
+
