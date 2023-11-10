@@ -66,15 +66,18 @@ const Work = () => {
               key={i}
             >
               <>
-                <div className="work-img-bg rounded-full flex justify-center absolute p-6">
-                  <Image
-                    src={items.imgSrc}
-                    alt={items.imgSrc}
-                    className="object-contain w-[40px]"
-                    width={500}
-                    height={500}
-                  />
+                <div className="relative left-5 top-[-24px]">
+                  <div className="work-img-bg rounded-full flex justify-center absolute p-6">
+                    <Image
+                      src={items.imgSrc}
+                      alt={items.imgSrc}
+                      className="object-contain w-[40px]"
+                      width={500}
+                      height={500}
+                    />
+                  </div>
                 </div>
+
                 <div>
                   <Image
                     src={"/images/Work/bg-arrow.svg"}

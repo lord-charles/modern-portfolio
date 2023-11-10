@@ -120,7 +120,7 @@ export default function Zigzag() {
                 <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl">
                   <Image
                     className="max-w-full mx-auto md:max-w-none h-auto rounded-md object-contain xxxs:w-[400px] md:w-[360px] lg:w-[400px]"
-                    src="/icons/reactjs.webp"
+                    src="/icons/reactjs.jpg"
                     width={540}
                     height={405}
                     alt="Features 02"
@@ -457,7 +457,7 @@ export default function Zigzag() {
             {/* 7rd item */}
             <Fade
               direction={"up"}
-              delay={400}
+              delay={600}
               cascade
               damping={1e-1}
               triggerOnce={true}
