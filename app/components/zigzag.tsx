@@ -107,78 +107,7 @@ export default function Zigzag() {
             </Fade>
 
             {/* 2nd item */}
-            <Fade
-              direction={"up"}
-              delay={400}
-              cascade
-              damping={1e-1}
-              triggerOnce={true}
-            >
-              {" "}
-              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-                {/* Image */}
-                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl">
-                  <Image
-                    className="max-w-full mx-auto md:max-w-none h-auto rounded-md object-contain xxxs:w-[400px] md:w-[360px] lg:w-[400px]"
-                    src="/icons/reactjs.jpg"
-                    width={540}
-                    height={405}
-                    alt="Features 02"
-                  />
-                </div>
-                {/* Content */}
-                <div
-                  className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-                  data-aos="fade-left"
-                >
-                  <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                    <div className="font-architects-daughter lg:text-5xl xxxs:text-4xl text-purple-600 mb-2">
-                      React js
-                    </div>
 
-                    <p className="text-xl text-bluish mb-4 ">
-                      React, a cornerstone of modern web development, plays a
-                      pivotal role in my projects. Here&apos;s why React is a
-                      top choice for crafting exceptional digital experiences:
-                    </p>
-                    <ul className="text-lg text-bluish -mb-2">
-                      <li className="flex items-center mb-2 ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span>Component-Based Architecture.</span>
-                      </li>
-                      <li className="flex items-center mb-2 ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span>Strong Ecosystem.</span>
-                      </li>
-                      <li className="flex items-center ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span>Fast Rendering.</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-
-            {/* 3rd item */}
             <Fade
               direction={"up"}
               delay={400}
@@ -248,77 +177,7 @@ export default function Zigzag() {
             </Fade>
 
             {/* 4nd item */}
-            <Fade
-              direction={"up"}
-              delay={400}
-              cascade
-              damping={1e-1}
-              triggerOnce={true}
-            >
-              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-                {/* Image */}
-                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl">
-                  <Image
-                    className="max-w-full mx-auto md:max-w-none h-auto rounded-md object-contain  lg:pr-[70px] md:pr-[180px]"
-                    src="/icons/nodejs2.jpg"
-                    width={570}
-                    height={405}
-                    alt="Features 02"
-                  />
-                </div>
-                {/* Content */}
-                <div
-                  className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-                  data-aos="fade-left"
-                >
-                  <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                    <div className="font-architects-daughter lg:text-5xl xxxs:text-4xl text-purple-600 mb-2">
-                      Node js
-                    </div>
 
-                    <p className="text-xl text-bluish mb-4 ">
-                      Node.js is the backbone of many of my server-side
-                      applications, and here&apos;s why it&apos;s a cornerstone
-                      of my development approach:
-                    </p>
-                    <ul className="text-lg text-bluish -mb-2">
-                      <li className="flex items-center mb-2 ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span> Real-time Applications.</span>
-                      </li>
-                      <li className="flex items-center mb-2 ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span>Efficient and Scalable.</span>
-                      </li>
-                      <li className="flex items-center ">
-                        <svg
-                          className="w-3 h-3 fill-current text-green mr-2 shrink-0"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <span>Cross-Platform.</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-
-            {/* 5rd item */}
             <Fade
               direction={"up"}
               delay={400}

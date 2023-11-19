@@ -308,7 +308,7 @@ export const projects = [
       "True Host",
       "C-Panel",
       "Vercel",
-      "NextJs 13",
+      "NextJs 14",
       "MongoDb",
       "Node Js",
       "Express Js",
@@ -328,6 +328,36 @@ export const projects = [
       },
     ],
     domain: "swiftmart-admin.charlesmwaniki.com",
+  },
+  {
+    id: 1,
+    title: "Mikrotic Custom Portal",
+    date: "July 2023 - Present",
+    description:
+      "We proudly present a cutting-edge Mikrotic Custom Portal designed to offer an unparalleled online experience for all your bandwidth needs. At Classic WiFi, we utilize MikroTik Hotspot technology to provide you with reliable, high-speed internet access whenever and wherever you need it.🌐 Explore a user-friendly platform that simplifies the process of purchasing bandwidth packages.💼 Choose from a variety of flexible plans that cater to both casual users and power-hungry internet enthusiasts.🔒 Rest assured with top-notch security measures, ensuring your data remains safe during your online sessions.💳 Conveniently complete transactions with our secure payment gateway, guaranteeing hassle-free purchases.🌟 Experience blazing-fast internet speeds and uninterrupted connectivity throughout your subscription.",
+    image: "/images/projects/mikrotic-hotspot-portal.jpeg",
+    tags: [
+      "True Host",
+      "Vercel",
+      "NextJs 14",
+      "Tailwind",
+      "Noje js",
+      "Express js",
+      "Axios",
+      "Mongo db",
+    ],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://wifi.classicresidence.co.ke/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "wifi.classicresidence.co.ke",
   },
   {
     id: 0,
@@ -350,49 +380,18 @@ export const projects = [
     ],
     domain: "crypto.charlesmwaniki.com",
   },
-  {
-    id: 1,
-    title: "Classics Wifi",
-    date: "July 2023 - Present",
-    description:
-      "Welcome to Classic WiFi, your gateway to seamless internet connectivity. We proudly present a cutting-edge website designed to offer an unparalleled online experience for all your bandwidth needs. At Classic WiFi, we utilize MikroTik Hotspot technology to provide you with reliable, high-speed internet access whenever and wherever you need it.🌐 Explore a user-friendly platform that simplifies the process of purchasing bandwidth packages.💼 Choose from a variety of flexible plans that cater to both casual users and power-hungry internet enthusiasts.🔒 Rest assured with top-notch security measures, ensuring your data remains safe during your online sessions.💳 Conveniently complete transactions with our secure payment gateway, guaranteeing hassle-free purchases.🌟 Experience blazing-fast internet speeds and uninterrupted connectivity throughout your subscription.",
-    image: "/images/projects/classics.png",
-    tags: [
-      "True Host",
-      "C-Panel",
-      "Vercel",
-      "NextJs 13",
-      "Tailwind",
-      "Noje js",
-      "Express js",
-      "Axios",
-      "Mongo db",
-    ],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://classics.charlesmwaniki.com/",
-    member: [
-      {
-        name: "Charles Mwaniki",
-        img: "/icons/user.png",
-        linkedin: "https://www.linkedin.com/",
-        github: "https://github.com/",
-      },
-    ],
-    domain: "classics.charlesmwaniki.com",
-  },
 
   {
     id: 0,
-    title: "Kempes owino",
+    title: "RiftHomes & Property Realtors",
     date: "Sept 2023 - present",
     description:
-      "Dive into the captivating world of Kempes Owino with our meticulously crafted personal blog. Delve into the life and experiences of this renowned former Harambee Stars player, as we bring you exclusive insights, stories, and updates directly from the legend himself. Join us on this exciting journey through the world of football and beyond, as we share Kempes Owino's extraordinary adventures and perspectives.",
-    image: "/images/projects/kempes.png",
-    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
+      "Welcome to RiftHomes & Property Realtors – Nakuru's premier real estate experts. Whether you're looking to rent, buy, or find the perfect land to build your dream home, we've got you covered. Our dedicated team ensures a seamless experience, offering a wide selection of properties and transparent acquisition processes. Landlords, connect with potential renters by calling 0707422184(Ezra Ondara). Trust RiftHomes for all your Nakuru real estate needs.",
+    image: "/images/projects/rifthomes-preview.png",
+    tags: ["True Host", "Vercel", "NextJs 14", "Tailwind"],
     category: "web app",
     github: "https://github.com/",
-    webapp: "https://charlesmwaniki.kempesowino.co.ke/",
+    webapp: "https://rifthomes.co.ke/",
     member: [
       {
         name: "Charles Mwaniki",
@@ -401,7 +400,7 @@ export const projects = [
         github: "https://github.com/",
       },
     ],
-    domain: "charlesmwaniki.kempesowino.co.ke | kempesowino.co.ke",
+    domain: "rifthomes.co.ke",
   },
   {
     id: 1,
@@ -533,6 +532,242 @@ export const projects = [
   },
 ];
 
+export const projects2 = [
+  {
+    id: 1,
+    title: "Mikrotic Custom Portal",
+    date: "July 2023 - Present",
+    description:
+      "We proudly present a cutting-edge Mikrotic Custom Portal designed to offer an unparalleled online experience for all your bandwidth needs. At Classic WiFi, we utilize MikroTik Hotspot technology to provide you with reliable, high-speed internet access whenever and wherever you need it.🌐 Explore a user-friendly platform that simplifies the process of purchasing bandwidth packages.💼 Choose from a variety of flexible plans that cater to both casual users and power-hungry internet enthusiasts.🔒 Rest assured with top-notch security measures, ensuring your data remains safe during your online sessions.💳 Conveniently complete transactions with our secure payment gateway, guaranteeing hassle-free purchases.🌟 Experience blazing-fast internet speeds and uninterrupted connectivity throughout your subscription.",
+    image: "/images/projects/mikrotic-hotspot-portal.jpeg",
+    tags: [
+      "True Host",
+      "Vercel",
+      "NextJs 14",
+      "Tailwind",
+      "Noje js",
+      "Express js",
+      "Axios",
+      "Mongo db",
+    ],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://wifi.classicresidence.co.ke/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "wifi.classicresidence.co.ke",
+  },
+  {
+    id: 9,
+    title: "SwiftMart Admin Dashboard",
+    date: "Feb 2023 - Mar 2023",
+    description:
+      "Introducing SwiftMart's Admin Panel – your command center for effortless management of your e-commerce empire. With a seamless blend of intuitive features, it's the gateway to controlling your customer base, product catalog, categories, coupons, and orders. SwiftMart's Admin Panel empowers you to orchestrate your online business with grace and precision, ensuring a delightful shopping experience for your customers while streamlining your operations. From the intricacies of product categorization to the strategic implementation of enticing coupons, it's all at your fingertips. Elevate your e-commerce prowess with SwiftMart's Admin Panel today.\n logins, Email: project@charlesmwaniki.com, password: 1234",
+    image: "/images/projects/swiftmart-admin.png",
+    tags: [
+      "True Host",
+      "C-Panel",
+      "Vercel",
+      "NextJs 14",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "MUI",
+      "Tailwind",
+      "Redux",
+    ],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://swiftmart-admin.charlesmwaniki.com/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "swiftmart-admin.charlesmwaniki.com",
+  },
+
+  {
+    id: 0,
+    title: "Crypto",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Introducing our  Crypto Website – your window into the dynamic world of cryptocurrencies. It's your source for real-time, up-to-the-minute data on the latest cryptocurrency prices, trends, and market insights. Our user-friendly platform delivers comprehensive information at a glance, making it a valuable resource for both novice and experienced crypto enthusiasts. Stay informed, track your favorite digital assets, and make data-driven decisions in the ever-evolving crypto landscape. Join us on our Crypto Website and embark on a journey of financial discovery in the digital age.",
+    image: "/images/projects/crpto-demo.png",
+    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://crypto.charlesmwaniki.com/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "crypto.charlesmwaniki.com",
+  },
+
+  {
+    id: 0,
+    title: "RiftHomes & Property Realtors",
+    date: "Sept 2023 - present",
+    description:
+      "Welcome to RiftHomes & Property Realtors – Nakuru's premier real estate experts. Whether you're looking to rent, buy, or find the perfect land to build your dream home, we've got you covered. Our dedicated team ensures a seamless experience, offering a wide selection of properties and transparent acquisition processes. Landlords, connect with potential renters by calling 0707422184(Ezra Ondara). Trust RiftHomes for all your Nakuru real estate needs.",
+    image: "/images/projects/rifthomes-preview.png",
+    tags: ["True Host", "Vercel", "NextJs 14", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://rifthomes.co.ke/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "rifthomes.co.ke",
+  },
+  {
+    id: 1,
+    title: "E-learning",
+    date: "Oct 2022 - Present",
+    description:
+      "Welcome to our state-of-the-art eLearning platform, meticulously crafted with Next.js 13. Immerse yourself in a world of knowledge, where interactive courses, multimedia-rich content, and cutting-edge features await. Elevate your learning experience and embark on a journey of limitless possibilities.",
+    image: "/images/projects/elearning-demo.png",
+    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://elearning.charlesmwaniki.com/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "elearning.charlesmwaniki.com",
+  },
+  {
+    id: 1,
+    title: "Chef",
+    date: "Dec 2022 - Present",
+    description:
+      "Indulge in the culinary world with our exquisite chef website. Explore a delectable array of recipes, culinary tips, and behind-the-scenes stories from a passionate chef. Join us on a gastronomic adventure, where flavors and creativity harmonize to tantalize your taste buds.",
+    image: "/images/projects/chef-demo.png",
+    tags: ["True Host", "C-Panel", "Vercel", "NextJs 13", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/",
+    webapp: "https://chef.charlesmwaniki.com/",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "chef.charlesmwaniki.com",
+  },
+
+  {
+    id: 2,
+    title: "Brain Tumor Detection",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+    image:
+      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://github.com/",
+    webapp: "https://brain-tumor.netlify.app/",
+    member: [
+      {
+        name: "Faith Muiruri",
+        img: "/icons/user2.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "brain-tumor.netlify.app",
+  },
+
+  {
+    id: 10,
+    title: "SwiftMart mobile app",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Introducing SwiftMart, your gateway to a seamless shopping experience. SwiftMart is a cutting-edge eCommerce mobile application meticulously crafted with React Native, combining the best of performance and user-friendliness.🛒Explore a vast array of products, carefully categorized for your convenience. 🔥Discover exclusive deals and discounts with our built-in coupon system. 📦 Place orders effortlessly and track their journey from cart to doorstep. 👤 Manage your user profile and keep your shopping history at your fingertips.With SwiftMart, we've redefined the art of eCommerce. Join millions of satisfied users who enjoy the convenience, security, and speed of SwiftMart. Shopping has never been this swift!Experience SwiftMart today and revolutionize the way you shop.",
+    image: "/images/projects/swiftmartapp.jpeg",
+    tags: [
+      "React Native",
+      "Native wind",
+      "Expressjs",
+      "Node JS",
+      "Mongo db",
+      "Axios",
+    ],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "Playtore: swiftmart",
+  },
+  {
+    id: 10,
+    title: "FashionWarrior mobile app",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Introducing FashionWarrior, where style meets convenience in the palm of your hand. FashionWarrior is a state-of-the-art eCommerce mobile application meticulously developed with React Native, combining elegance and functionality to redefine your shopping experience.👗 Explore a curated collection of the latest fashion trends and wardrobe essentials.🛒 Seamlessly navigate through categories, making shopping for the perfect outfit a breeze.🏆 Enjoy exclusive discounts and deals, ensuring you always look your best without breaking the bank.🚚 Experience swift and reliable delivery, with real-time order tracking.👤 Personalize your style profile, making it easier to discover clothing tailored to your taste. With FashionWarrior, we empower you to conquer the world with your style. Join the league of fashion enthusiasts who trust FashionWarrior for their clothing needs. Elevate your wardrobe, one tap at a time.",
+    image: "/images/projects/warriorapp.jpeg",
+    tags: [
+      "React Native",
+      "Native wind",
+      "Expressjs",
+      "Node JS",
+      "Mongo db",
+      "Axios",
+    ],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    member: [
+      {
+        name: "Charles Mwaniki",
+        img: "/icons/user.png",
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/",
+      },
+    ],
+    domain: "Playtore: FashionWarrior",
+  },
+];
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Worked as a freelance developer" },
