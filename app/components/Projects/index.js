@@ -124,7 +124,7 @@ const handlePageChange = (event, newPage) => {
                     toggle === "android app" ? "text-purple-500" : null
                   }`}
                 >
-                  ANDROID/ISO APP&apos;S
+                  MOBILE APP&apos;S
                 </ToggleButton>
               ) : (
                 <ToggleButton
@@ -136,7 +136,7 @@ const handlePageChange = (event, newPage) => {
                     toggle === "android app" ? "text-purple-500" : null
                   }`}
                 >
-                  ANDROID/ISO APP&apos;S
+                  MOBILE APP&apos;S
                 </ToggleButton>
               )}
               <Divider className="bg-green" />
