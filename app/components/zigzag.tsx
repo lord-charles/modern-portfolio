@@ -6,7 +6,7 @@ export default function Zigzag() {
   return (
     <section>
       <div
-        className="mx-auto max-w-7xl mt-16  mb-20 relative overflow-x-hidden px-6"
+        className="mx-auto max-w-7xl mt-16  mb-20 relative overflow-hidden px-6"
         id="skills"
       >
         <div className="py-12 md:py-20 border-t border-gray-800">
@@ -316,7 +316,7 @@ export default function Zigzag() {
             {/* 7rd item */}
             <Fade
               direction={"up"}
-              delay={600}
+              delay={400}
               cascade
               damping={1e-1}
               triggerOnce={true}
