@@ -35,8 +35,12 @@ const Projects = ({ openModal, setOpenModal }) => {
 
 const handlePageChange = (event, newPage) => {
   setCurrentPage(newPage);
-  window.scrollTo(8982, 8982); 
+
+  if (window.innerWidth < 600) {
+    window.scrollTo(7725, 7725);
+  }
 };
+
 
 
   return (
