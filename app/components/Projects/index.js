@@ -37,7 +37,7 @@ const handlePageChange = (event, newPage) => {
   setCurrentPage(newPage);
 
   if (window.innerWidth < 600) {
-    window.scrollTo(7725, 7725);
+    // window.scrollTo(7725, 7725);
   }
 };
 
