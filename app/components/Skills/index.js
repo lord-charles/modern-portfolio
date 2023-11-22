@@ -97,6 +97,8 @@ const SkillItem = styled.div`
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid 
   border-radius: 12px;
+  padding: 10px 14px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +128,7 @@ const Skills = () => {
           continuously refined.
         </Desc>
         <div className="radial-banner hidden lg:block md:block"></div>
-        <SkillsContainer>
+        <SkillsContainer className="animate-pulse">
           {skills.map((skill, index) => (
             <Skill key={index}>
               <SkillTitle className="text-bluish">{skill.title}</SkillTitle>

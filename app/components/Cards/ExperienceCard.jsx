@@ -150,14 +150,14 @@ const ExperienceCard = ({ experience }) => {
             <Top>
                 <Image src={experience.img} alt='image'/>
                 <Body>
-                    <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
-                    <Date>{experience.date}</Date>
+                    <Role className="text-bluish">{experience.role}</Role>
+                    <Company className="text-bluish">{experience.company}</Company>
+                    <Date className="text-gray-400">{experience.date}</Date>
                 </Body>
             </Top>
-            <Description>
+            <Description className="text-bluish">
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                    <Span className="text-bluish">{experience?.desc}</Span>
 
                 }
                 {experience?.skills &&
@@ -174,11 +174,7 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
-            {experience.doc &&
-                <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
-                </a>
-            }
+         
         </Card>
     )
 }
