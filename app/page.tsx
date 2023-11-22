@@ -11,13 +11,13 @@ import Zigzag from "./components/zigzag";
 import Projects from "./components/Projects/index";
 import ProjectDetails from "./components/ProjectDetails/index";
 import Testimonials from "./components/Testimonials/index";
+import Skills from "./components/Skills";
 import { useState } from "react";
 import Newsletter from "./components/newsletter/newsletter";
 import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal);
   return (
     <main>
       <Toaster />
@@ -27,6 +27,7 @@ export default function Home() {
       <Table />
       <Features />
       <Zigzag />
+      <Skills />
       <Projects openModal={openModal} setOpenModal={setOpenModal} />
       {openModal.state && (
         <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

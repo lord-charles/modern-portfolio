@@ -61,7 +61,7 @@ export default function Zigzag() {
                 >
                   <div className="md:pr-4 lg:pr-12 xl:pr-16 ">
                     <div className="font-architects-daughter lg:text-5xl xxxs:text-4xl text-purple-600 mb-2">
-                      Next js
+                      Next js/React js
                     </div>
 
                     <p className="text-xl text-bluish mb-4 text-start ">
@@ -203,7 +203,7 @@ export default function Zigzag() {
                 >
                   <div className="md:pr-4 lg:pr-12 xl:pr-16">
                     <div className="font-architects-daughter lg:text-5xl xxxs:text-4xl text-purple-600 mb-2">
-                      Express js
+                      Express js/Node js
                     </div>
 
                     <p className="text-xl text-bluish mb-4">
@@ -342,7 +342,7 @@ export default function Zigzag() {
                 >
                   <div className="md:pr-4 lg:pr-12 xl:pr-16">
                     <div className="font-architects-daughter lg:text-5xl xxxs:text-4xl text-purple-600 mb-2">
-                      Tailwind css
+                      Tailwind css/Css 3
                     </div>
 
                     <p className="text-xl text-bluish mb-4">
