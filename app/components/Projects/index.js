@@ -37,167 +37,161 @@ const handlePageChange = (event, newPage) => {
   setCurrentPage(newPage);
 
   if (window.innerWidth < 600) {
-    // window.scrollTo(7725, 7725);
+    window.scrollTo(7725, 7725);
   }
 };
 
+return (
+  <div id="projects">
+    <Fade
+      direction={"up"}
+      delay={400}
+      cascade
+      damping={1e-1}
+      triggerOnce={true}
+    >
+      <Container className="overflow">
+        <div className="radial-bgone hidden lg:block"></div>
+        <div className="absolute top-[-100px]">
+          <HeroBgAnimation />
+        </div>
+        <div className="absolute">
+          <HeroBgAnimation />
+        </div>
+        <Wrapper>
+          <Title className=" text-bluish">Portfolio Highlights</Title>
 
-
-  return (
-    <div id="projects">
-      <Fade
-        direction={"up"}
-        delay={400}
-        cascade
-        damping={1e-1}
-        triggerOnce={true}
-      >
-        <Container className="overflow-hidden">
-          <div className="radial-bgone hidden lg:block"></div>
-          <div className="absolute top-[-100px]">
-            <HeroBgAnimation />
-          </div>
-          <div className="absolute">
-            <HeroBgAnimation />
-          </div>
-          <Wrapper>
-            <Title className=" text-bluish">Portfolio Highlights</Title>
-
-            <Desc className=" text-bluish">
-              Excellence and innovation awaits.
-            </Desc>
-            <ToggleButtonGroup className=" text-green">
-              {toggle === "all" ? (
-                <ToggleButton
-                  active
-                  value="all"
-                  onClick={() => setToggle("all")}
-                  className={`${toggle === "all" ? "text-purple-500" : null}`}
-                >
-                  All
-                </ToggleButton>
-              ) : (
-                <ToggleButton
-                  value="all"
-                  onClick={() => setToggle("all")}
-                  className={`${toggle === "all" ? "text-purple-500" : null}`}
-                >
-                  All
-                </ToggleButton>
-              )}
-              <Divider className="bg-green" />
-              {toggle === "web app" ? (
-                <ToggleButton
-                  active
-                  value="web app"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("web app");
-                  }}
-                  className={`${
-                    toggle === "web app" ? "text-purple-500" : null
-                  }`}
-                >
-                  WEB APP&apos;S
-                </ToggleButton>
-              ) : (
-                <ToggleButton
-                  value="web app"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("web app");
-                  }}
-                  className={`${
-                    toggle === "web app" ? "text-purple-500" : null
-                  }`}
-                >
-                  WEB APP&apos;S
-                </ToggleButton>
-              )}
-              <Divider className="bg-green" />
-              {toggle === "android app" ? (
-                <ToggleButton
-                  active
-                  value="android app"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("android app");
-                  }}
-                  className={`${
-                    toggle === "android app" ? "text-purple-500" : null
-                  }`}
-                >
-                  MOBILE APP&apos;S
-                </ToggleButton>
-              ) : (
-                <ToggleButton
-                  value="android app"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("android app");
-                  }}
-                  className={`${
-                    toggle === "android app" ? "text-purple-500" : null
-                  }`}
-                >
-                  MOBILE APP&apos;S
-                </ToggleButton>
-              )}
-              <Divider className="bg-green" />
-              {toggle === "machine learning" ? (
-                <ToggleButton
-                  active
-                  value="machine learning"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("machine learning");
-                  }}
-                  className={`${
-                    toggle === "machine learning" ? "text-purple-500" : null
-                  }`}
-                >
-                  MACHINE LEARNING
-                </ToggleButton>
-              ) : (
-                <ToggleButton
-                  value="machine learning"
-                  onClick={() => {
-                    setCurrentPage(1), setToggle("machine learning");
-                  }}
-                  className={`${
-                    toggle === "machine learning" ? "text-purple-500" : null
-                  }`}
-                >
-                  MACHINE LEARNING
-                </ToggleButton>
-              )}
-            </ToggleButtonGroup>
-            <CardContainer>
-              {projectsToDisplay.map((project, index) => (
-                <ProjectCard
-                  key={index}
-                  project={project}
-                  openModal={openModal}
-                  setOpenModal={setOpenModal}
-                />
-              ))}
-            </CardContainer>
-            <div className="pt-8 flex justify-center">
-              <Stack
-                spacing={2}
-                justifyContent="center"
-                mt={2}
-                className="text-bluish bg-bluish px-2 py-0.5 rounded-md"
+          <Desc className=" text-bluish">
+            Excellence and innovation awaits.
+          </Desc>
+          <ToggleButtonGroup className=" text-green">
+            {toggle === "all" ? (
+              <ToggleButton
+                active
+                value="all"
+                onClick={() => setToggle("all")}
+                className={`${toggle === "all" ? "text-purple-500" : null}`}
               >
-                <Pagination
-                  count={totalPages}
-                  page={currentPage}
-                  onChange={handlePageChange}
-                  variant="outlined"
-                  color="secondary"
-                />
-              </Stack>
-            </div>
-          </Wrapper>
-        </Container>
-      </Fade>
-    </div>
-  );
+                All
+              </ToggleButton>
+            ) : (
+              <ToggleButton
+                value="all"
+                onClick={() => setToggle("all")}
+                className={`${toggle === "all" ? "text-purple-500" : null}`}
+              >
+                All
+              </ToggleButton>
+            )}
+            <Divider className="bg-green" />
+            {toggle === "web app" ? (
+              <ToggleButton
+                active
+                value="web app"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("web app");
+                }}
+                className={`${toggle === "web app" ? "text-purple-500" : null}`}
+              >
+                WEB APP&apos;S
+              </ToggleButton>
+            ) : (
+              <ToggleButton
+                value="web app"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("web app");
+                }}
+                className={`${toggle === "web app" ? "text-purple-500" : null}`}
+              >
+                WEB APP&apos;S
+              </ToggleButton>
+            )}
+            <Divider className="bg-green" />
+            {toggle === "android app" ? (
+              <ToggleButton
+                active
+                value="android app"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("android app");
+                }}
+                className={`${
+                  toggle === "android app" ? "text-purple-500" : null
+                }`}
+              >
+                MOBILE APP&apos;S
+              </ToggleButton>
+            ) : (
+              <ToggleButton
+                value="android app"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("android app");
+                }}
+                className={`${
+                  toggle === "android app" ? "text-purple-500" : null
+                }`}
+              >
+                MOBILE APP&apos;S
+              </ToggleButton>
+            )}
+            <Divider className="bg-green" />
+            {toggle === "machine learning" ? (
+              <ToggleButton
+                active
+                value="machine learning"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("machine learning");
+                }}
+                className={`${
+                  toggle === "machine learning" ? "text-purple-500" : null
+                }`}
+              >
+                MACHINE LEARNING
+              </ToggleButton>
+            ) : (
+              <ToggleButton
+                value="machine learning"
+                onClick={() => {
+                  setCurrentPage(1), setToggle("machine learning");
+                }}
+                className={`${
+                  toggle === "machine learning" ? "text-purple-500" : null
+                }`}
+              >
+                MACHINE LEARNING
+              </ToggleButton>
+            )}
+          </ToggleButtonGroup>
+          <CardContainer>
+            {projectsToDisplay.map((project, index) => (
+              <ProjectCard
+                key={index}
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            ))}
+          </CardContainer>
+          <div className="pt-8 flex justify-center">
+            <Stack
+              spacing={2}
+              justifyContent="center"
+              mt={2}
+              className="text-bluish bg-bluish px-2 py-0.5 rounded-md"
+            >
+              <Pagination
+                count={totalPages}
+                page={currentPage}
+                onChange={handlePageChange}
+                variant="outlined"
+                color="secondary"
+              />
+            </Stack>
+          </div>
+        </Wrapper>
+      </Container>
+    </Fade>
+  </div>
+);
 };
 
 export default Projects;

@@ -148,7 +148,6 @@ const ExperienceCard = ({ experience }) => {
     return (
         <Card>
             <Top>
-                <Image src={experience.img} alt='image'/>
                 <Body>
                     <Role className="text-bluish">{experience.role}</Role>
                     <Company className="text-bluish">{experience.company}</Company>
