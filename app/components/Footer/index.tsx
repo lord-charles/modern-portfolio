@@ -104,7 +104,7 @@ const footer = () => {
                 width={20}
                 height={20}
               />
-              project@charlesmwaniki.com
+              info@charlesmwaniki.com
             </h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2">
               <Image
