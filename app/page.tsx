@@ -11,7 +11,7 @@ import Faq from "./components/Faq/index";
 import Zigzag from "./components/zigzag";
 import Projects from "./components/Projects/index";
 import ProjectDetails from "./components/ProjectDetails/index";
-import Testimonials from "./components/Testimonials/index";
+import Testimonials from "./components/Testimonials/slidingversion";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import { useState } from "react";

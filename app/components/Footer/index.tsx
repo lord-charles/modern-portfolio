@@ -1,3 +1,4 @@
+import { Divider } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,8 +10,8 @@ interface ProductType {
 }
 
 interface Social {
-  imgsrc: string,
-  href: string,
+  imgsrc: string;
+  href: string;
 }
 
 const products: ProductType[] = [
@@ -121,12 +122,10 @@ const footer = () => {
 
       {/* All Rights Reserved */}
 
-      <div className="py-8 px-4 border-t border-t-lightblue">
+      <div className="py-8 px-4 ">
+        <Divider className="bg-gray-800 mb-5" />
         <h3 className="text-center text-offwhite">
-          &copy; {new Date().getFullYear()} - All Rights Reserved by{" "}
-          <Link href="https://charlesmwaniki.com/" target="_blank">
-            charlesmwaniki.com
-          </Link>
+          &copy; {new Date().getFullYear()} - All Rights Reserved.
         </h3>
       </div>
     </div>
