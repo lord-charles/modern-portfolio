@@ -494,7 +494,7 @@ export const projects = [
         github: "https://github.com/",
       },
     ],
-    domain: "Playtore: FashionWarrior",
+    domain: "Playstore: FashionWarrior",
   },
 ];
 
@@ -703,7 +703,7 @@ export const projects2 = [
         github: "https://github.com/",
       },
     ],
-    domain: "Playtore: swiftmart",
+    domain: "Playstore: swiftmart",
   },
   {
     id: 10,
