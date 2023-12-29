@@ -731,7 +731,7 @@ export const projects2 = [
         github: "https://github.com/",
       },
     ],
-    domain: "Playtore: FashionWarrior",
+    domain: "Playstore: FashionWarrior",
   },
 ];
 export const TimeLineData = [
